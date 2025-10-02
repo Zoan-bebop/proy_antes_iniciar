@@ -3,57 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
     <title>Tu Empresa - Inicio</title>
 </head>
 <body>
     <div>
-        <div>
+        <div class="header-content">
             <h1>Bienvenido a Tu Empresa</h1>
             <p>Innovación y Calidad en Cada Proyecto</p>
         </div>
 
-        <div>
-            <div>
+        <div class="main-content">
+            <div class="presentation-section">
                 <h2>Transformamos Ideas en Realidad</h2>
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=400&fit=crop" alt="Equipo trabajando">
-                <div>
-                    <button onclick="alert('¡Gracias por tu interés!')">Comenzar Ahora</button>
-                    <button onclick="alert('Conoce más sobre nosotros')">Más Información</button>
+                <div class="cta-buttons">
+                    <button id="btn-comenzar">Comenzar Ahora</button>
+                    <button id="btn-mas-info">Más Información</button>
                 </div>
             </div>
 
-            <div>
+            <div class="services-section">
                 <h2>Nuestros Servicios</h2>
-                <div>
-                    <div>
+                <div class="services-grid">
+                    <div class="service-card">
                         <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" alt="Desarrollo Web">
                         <h3>Desarrollo Web</h3>
                         <p>Creamos sitios web modernos, responsivos y optimizados para tu negocio.</p>
-                        <button>Ver Más</button>
+                        <button class="btn-service">Ver Más</button>
                     </div>
-                    <div>
+                    <div class="service-card">
                         <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Marketing Digital">
                         <h3>Marketing Digital</h3>
                         <p>Estrategias efectivas para hacer crecer tu presencia en línea.</p>
-                        <button>Ver Más</button>
+                        <button class="btn-service">Ver Más</button>
                     </div>
-                    <div>
+                    <div class="service-card">
                         <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&h=300&fit=crop" alt="Consultoría">
                         <h3>Consultoría</h3>
                         <p>Asesoramiento experto para optimizar tus procesos de negocio.</p>
-                        <button>Ver Más</button>
+                        <button class="btn-service">Ver Más</button>
                     </div>
                 </div>
             </div>
 
-            <div>
+            <div class="final-cta-section">
                 <h2>¿Listo para empezar tu proyecto?</h2>
                 <p>Contáctanos hoy y hagamos realidad tus ideas</p>
-                <button>Contactar Ahora</button>
+                <button id="btn-contactar">Contactar Ahora</button>
             </div>
         </div>
 
-        <div>
+        <div class="footer">
             <p>&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
             <p>Innovación | Calidad | Compromiso</p>
         </div>
